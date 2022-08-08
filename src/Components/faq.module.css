@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.faq {
+  margin: 2rem;
+  background-color: rgb(229, 231, 233);
+  padding: 2rem;
+  border-radius: 0.6rem;
+  box-shadow: 0.1rem 0.1rem #2c2c2c;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
+.faq div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+
+.faq div button {
+  border: none;
+  cursor: pointer;
+  background-color: rgb(229, 231, 233);
+}
